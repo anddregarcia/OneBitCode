@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Sua Despensa - Nova Compra</title>
+    </head>
+    <body>
+        <header>
+            <h1>Nova Compra</h1>
+        </header>
+        <hr />
+        <div><a href="cadastro_item.html">Cadastrar Item</a></div>
+        <br />
+        <form class="form-content" action="">
+            <div class="form-header">
+                <div class="form-header-item">
+                    <label for="data_compra">Data: </label>
+                    <input type="date" name="data_compra" id="data_compra" />
+                    <label for="nome_mercado">Mercado: </label>
+                    <input
+                        type="search"
+                        name="nome_mercado"
+                        id="nome_mercado"
+                        list="lista_mercado"
+                    />
+                </div>
+                <div class="form-header-item">
+                    <datalist id="lista_mercado">
+                        <option value="Pague Menos"></option>
+                        <option value="Carrefour"></option>
+                        <option value="Oba"></option>
+                        <option value="Pao De Acúçar"></option>
+                    </datalist>
+                </div>
+            </div>
+            <br />
+            <div class="categoria">
+                <p class="titulo-categoria">Frutas</p>
+                <ul class="lista-categoria">
+                    <li class="item">
+                        <input type="checkbox" name="banana" id="banana" />
+                        <label for="banana">Banana -</label>
+                        <label for="valor_banana">Valor: </label>
+                        <input
+                            type="number"
+                            name="valor_banana"
+                            id="valor_banana"
+                        />
+                    </li>
+                    <li class="item">
+                        <input type="checkbox" name="limao" id="limao" />
+                        <label for="limao">Limão -</label>
+                        <label for="valor_limao">Valor: </label>
+                        <input
+                            type="number"
+                            name="valor_limao"
+                            id="valor_limao"
+                        />
+                    </li>
+                </ul>
+            </div>
+            <div class="categoria">
+                <p class="titulo-categoria">Banheiro</p>
+                <ul class="lista-categoria">
+                    <li class="item">
+                        <input
+                            type="checkbox"
+                            name="sabonete_dove"
+                            id="sabonete_dove"
+                        />
+                        <label for="sabonete_dove">Sabonete Dove -</label>
+                        <label for="valor_sabonete_dove">Valor: </label>
+                        <input
+                            type="number"
+                            name="valor_sabonete_dove"
+                            id="valor_sabonete_dove"
+                        />
+                    </li>
+                    <li class="item">
+                        <input
+                            type="checkbox"
+                            name="creme_dental_colgate"
+                            id="creme_dental_colgate"
+                        />
+                        <label for="creme_dental_colgate"
+                            >Creme Dental Colgate -</label
+                        >
+                        <label for="valor_creme_dental_colgate">Valor: </label>
+                        <input
+                            type="number"
+                            name="valor_creme_dental_colgate"
+                            id="valor_creme_dental_colgate"
+                        />
+                    </li>
+                </ul>
+            </div>
+            <br />
+            <div>
+                <input class="button-save" type="submit" value="Salvar" />
+            </div>
+        </form>
+
+        <br />
+        <hr />
+        <footer>
+            <a class="back-to-index" href="index.html"
+                >voltar para tela inicial</a
+            >
+        </footer>
+    </body>
+</html>

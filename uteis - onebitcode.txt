@@ -1,0 +1,4 @@
+8. Seletores mais avançados
+
+https://developer.mozilla.org/pt-BR/docs/Web/CSS/Seletores_CSS​
+https://code.tutsplus.com/pt/tutorials/the-30-css-selectors-you-must-memorize--net-16048
